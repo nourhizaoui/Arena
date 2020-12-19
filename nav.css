@@ -1,0 +1,52 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    font-family: 'Roboto' ;
+  padding-top: 20px;  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 40px;
+    color:black;
+    padding: 9px;
+    padding-left: 40px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    padding: 20px;
+
+  }
+  
+  .nav > .nav-links > a {
+   
+    text-decoration: none;
+    color: black;
+    background-color: white(0, 0, 0, 0.3);
+    vertical-align:middle;
+    padding-right: 40px;
+    width: 100%;
+    padding-left: 40px;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: white(0, 0, 0, 0.3);
+    
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
